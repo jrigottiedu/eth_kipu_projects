@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.26;
 
+// **********************************
+// TERMINAR DE VER EL VIDEO DE CLASE
+// **********************************
+
 // Este contrato es una Subasta
 
 contract Subasta {
@@ -79,7 +83,7 @@ contract Subasta {
             revert Error__NoEresElVendedor();
         }
         _;
-    }
+     }
 
     // retirar utiliza el codigo de soloDueno primero
     function retirar() public soloDueno {

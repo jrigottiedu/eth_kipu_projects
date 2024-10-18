@@ -18,7 +18,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "Error__NoEresElVendedor",
+				"name": "Subasta__NoEresElVendedor",
 				"type": "error"
 			},
 			{
@@ -33,7 +33,7 @@
 					{
 						"indexed": false,
 						"internalType": "uint256",
-						"name": "nuevoValor",
+						"name": "precioNuevo",
 						"type": "uint256"
 					}
 				],
@@ -46,7 +46,7 @@
 					{
 						"indexed": false,
 						"internalType": "address",
-						"name": "mejorPostor",
+						"name": "mejorApostador",
 						"type": "address"
 					},
 					{
@@ -192,7 +192,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Subaste_2.sol": "Subasta"
+			"contracts/Subasta_3.sol": "Subasta"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -206,12 +206,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Subaste_2.sol": {
-			"keccak256": "0x279a6f33851492eac511ba33eaf3d7311a765abdf82f0889f417c0439ad137eb",
+		"contracts/Subasta_3.sol": {
+			"keccak256": "0x7ce548ef88da4aa019c6be63f8d8787e08fca3f88f46a70ee655f349732d39b7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3c0a7cc06af2a2f55b713f1873e09046702508c7dbabd98928cb5fe9770eadf9",
-				"dweb:/ipfs/QmUtb4W49tFfLUQHpEuCHyf897tf8cf39E1cDnCPoA5WKJ"
+				"bzz-raw://faedca2bb7897fa535e33bbe1647051b326cd6b8f94e16e92bd88331b63f3d05",
+				"dweb:/ipfs/QmdtWqPpAHbTmsKRMHPxXGiBwavANkWMi9WGMSU1bid9Ut"
 			]
 		}
 	},
