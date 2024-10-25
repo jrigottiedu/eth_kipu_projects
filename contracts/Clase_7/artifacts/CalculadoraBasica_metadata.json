@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_numero",
+						"type": "uint256"
+					}
+				],
+				"name": "calcular",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "esNumeroPar",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numeroDoble",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Clase_7/libreria_codigo.sol": "CalculadoraBasica"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Clase_7/libreria_codigo.sol": {
+			"keccak256": "0xfa01c1226ae31a30c8f753399e0a30c16d02717eb91b5237ef338ca6fcdf45d1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3601f1ad0cf0d9eee188d1d61c3a731630f582c3f922464fb3373e86d62bbba0",
+				"dweb:/ipfs/QmcN46d5pK1No1scpZUk6Vi8stBrwbNf3SaFW7NfnxHXsk"
+			]
+		}
+	},
+	"version": 1
+}
